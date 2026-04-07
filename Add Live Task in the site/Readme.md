@@ -46,8 +46,9 @@ cd BACKEND-WITH-EXPRESS
 cd "Add Live Task in the Site"
 npm install express ejs
 node app.js
+```
 
 ---
-```
+
 ## 🌐 OPEN IN BROWSER
 👉 Visit: http://localhost:3000
