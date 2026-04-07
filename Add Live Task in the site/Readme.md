@@ -48,6 +48,7 @@ npm install express ejs
 node app.js
 
 ---
-## OPEN IN BROWSER
-http://localhost:3000
----
+```
+## 🌐 OPEN IN BROWSER
+```markdown
+👉 Visit: http://localhost:3000
