@@ -25,29 +25,29 @@ A simple yet powerful **Task Manager** web application built using modern web te
 ---
 
 ## 📂 Project Structure
+
 ```bash
 BACKEND-WITH-EXPRESS/
 │
 ├── Add Live Task in the Site/
-    │
-    ├── files/
-        │
-        ├── EJS.txt
-        ├── Express.txt
-        ├── JavaScript.txt
-        ├── MongoDB.txt
-        ├── Nodejs.txt
-        ├── Tailwlind.txt
-    ├── public/
-    ├── views/
-        │
-        ├── index.ejs
-        ├── showdata.ejs
-    ├── index.js
-    ├── package-lock.json
-    ├── package.json
-    └── Readme.md
-```
+│   │
+│   ├── files/
+│   │   ├── EJS.txt
+│   │   ├── Express.txt
+│   │   ├── JavaScript.txt
+│   │   ├── MongoDB.txt
+│   │   ├── Nodejs.txt
+│   │   └── Tailwind.txt
+│   │
+│   ├── public/
+│   ├── views/
+│   │   ├── index.ejs
+│   │   └── showdata.ejs
+│   │
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── Readme.md
 
 ---
 
