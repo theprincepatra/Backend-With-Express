@@ -50,5 +50,4 @@ node app.js
 ---
 ```
 ## 🌐 OPEN IN BROWSER
-```markdown
 👉 Visit: http://localhost:3000
