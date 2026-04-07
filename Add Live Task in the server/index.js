@@ -20,12 +20,10 @@ app.post('/create', function(req, res){
     });
 });
 app.get('/files/:filename', (req, res) => {
-    const filename = req.params.filename;
-
-    fs.readFile(`./files/${filename}`, 'utf-8', (err, data) => {
+    fs.readFile(`./files/${req.params.filename}`, 'utf-8', (err, filedata) => {
         if(err) return console.log("File not found");
 
-        res.send(data);
+        res.render('showdata', {filedata: filedata, filename: req.params.filename});
     });
 });
 
