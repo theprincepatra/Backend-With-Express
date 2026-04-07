@@ -25,16 +25,29 @@ A simple yet powerful **Task Manager** web application built using modern web te
 ---
 
 ## 📂 Project Structure
+```markdown
 BACKEND-WITH-EXPRESS/
 │
 ├── Add Live Task in the Site/
-│
-├── views/
-├── public/
-├── routes/
-├── app.js
-└── package.json
-
+    │
+    ├── files/
+        │
+        ├── EJS.txt
+        ├── Express.txt
+        ├── JavaScript.txt
+        ├── MongoDB.txt
+        ├── Nodejs.txt
+        ├── Tailwlind.txt
+    ├── public/
+    ├── views/
+        │
+        ├── index.ejs
+        ├── showdata.ejs
+    ├── index.js
+    ├── package-lock.json
+    ├── package.json
+    └── Readme.md
+```
 
 ---
 
@@ -45,7 +58,7 @@ git clone https://github.com/theprincepatra/BACKEND-WITH-EXPRESS.git
 cd BACKEND-WITH-EXPRESS
 cd "Add Live Task in the Site"
 npm install express ejs
-node app.js
+node index.js
 ```
 
 ---
