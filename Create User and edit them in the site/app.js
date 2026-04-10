@@ -34,7 +34,7 @@ app.get('/edit/:id', async function(req,res){
 });
 app.post('/edit/:id', async function(req,res){
     let {changedname, changedemail, changedimage} = req.body;
-    let user = await userModel.findByIdAndUpdate({_id: req.params.id}, {name: changedname, email: changedemail, image: changedimage}, {returnDocument: 'after'});
+    let user = await userModel.findByIdAndUpdate(req.params.id, {name: changedname, email: changedemail, image: changedimage}, {returnDocument: 'after'});
     console.log(user);
     res.redirect('/read');
 });
