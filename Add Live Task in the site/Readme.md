@@ -63,5 +63,5 @@ node index.js
 
 ---
 
-## 🌐 OPEN IN BROWSER
+## 🌐 OPEN BROWSER
 👉 Visit: http://localhost:3000
