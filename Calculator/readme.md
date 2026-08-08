@@ -8,16 +8,16 @@ The project focuses on building calculator functionality from scratch without us
 
 <div align="center">
 
-    <table>
-        <tr>
-        <td><img src="./calculator-1.png" width="400"></td>
-        <td><img src="./calculator-2.png" width="400"></td>
-        </tr>
-        <tr>
-        <td><img src="./calculator-3.png" width="400"></td>
-        <td><img src="./calculator-4.png" width="400"></td>
-        </tr>
-    </table>
+<table>
+<tr>
+<td><img src="./calculator-1.png" width="400"></td>
+<td><img src="./calculator-2.png" width="400"></td>
+</tr>
+<tr>
+<td><img src="./calculator-3.png" width="400"></td>
+<td><img src="./calculator-4.png" width="400"></td>
+</tr>
+</table>
 
 </div>
 
