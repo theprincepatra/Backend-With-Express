@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+
+        <header class="topbar">
+            <div class="brand">
+                <span class="brand-mark">📊</span>
+                <span>TASKBOARD</span>
+            </div>
+
+            <div class="date" id="currentDate"></div>
+        </header>
+
+        <section class="hero">
+            <div>
+                <p class="eyebrow">PERSONAL WORKSPACE</p>
+                <h1>Get things done.<br><span>Keep moving.</span></h1>
+            </div>
+
+            <p class="hero-note">
+                A simple space to capture tasks,<br>
+                finish them, and move forward.
+            </p>
+        </section>
+
+        <section class="task-input-section">
+
+            <label for="taskInput">NEW TASK</label>
+
+            <div class="input-row">
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="What needs to be done?"
+                    autocomplete="off"
+                >
+
+                <button id="addTaskBtn" type="button">
+                    ADD TASK
+                    <span>+</span>
+                </button>
+            </div>
+
+            <p class="input-error" id="inputError"></p>
+
+        </section>
+
+        <section class="lists">
+
+            <div class="task-column pending-column">
+
+                <div class="column-header">
+                    <div>
+                        <p class="column-label">PENDING</p>
+                        <h2 id="pendingCount">0 pending</h2>
+                    </div>
+
+                    <span class="column-number">01</span>
+                </div>
+
+                <div class="task-list" id="pendingList">
+
+                    <div class="empty-state" id="pendingEmpty">
+                        <div class="empty-icon">○</div>
+                        <p>No pending tasks</p>
+                        <span>Your workspace is clear.</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="task-column completed-column">
+
+                <div class="column-header">
+                    <div>
+                        <p class="column-label">COMPLETED</p>
+                        <h2 id="completedCount">0 completed</h2>
+                    </div>
+
+                    <span class="column-number">02</span>
+                </div>
+
+                <div class="task-list" id="completedList">
+
+                    <div class="empty-state" id="completedEmpty">
+                        <div class="empty-icon">✓</div>
+                        <p>No completed tasks</p>
+                        <span>Finish something to see it here.</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <span>TASKBOARD / VANILLA JS</span>
+            <span>LOCAL STORAGE ENABLED</span>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
