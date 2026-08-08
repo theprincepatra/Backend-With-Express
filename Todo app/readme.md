@@ -1,4 +1,4 @@
-# ✅ TASKBOARD
+# 📊 TASKBOARD
 
 ### 📝 A minimal, responsive task management application built with Vanilla JavaScript.
 
@@ -14,15 +14,15 @@ It provides a focused workspace for managing **pending and completed tasks** whi
 
 <div align="center">
 
-<img src="./todo1.png" width="850" alt="Taskboard main interface">
+<img src="./todo1.png" width="810" alt="Taskboard main interface">
 
 <br><br>
 
-<img src="./todo2.png" width="410" alt="Taskboard pending tasks">
+<img src="./todo2.png" width="810" alt="Taskboard pending tasks">
 
-&nbsp;&nbsp;&nbsp;
+<br><br>
 
-<img src="./todo3.png" width="410" alt="Taskboard completed tasks">
+<img src="./todo3.png" width="810" alt="Taskboard completed tasks">
 
 </div>
 
