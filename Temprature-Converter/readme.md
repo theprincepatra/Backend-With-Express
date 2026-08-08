@@ -8,8 +8,6 @@ The tool allows users to convert temperatures between **Celsius, Fahrenheit, and
 
 ![Temperature Converter Preview](./preview.png)
 
-> Replace `preview.png` with the actual name/path of the screenshot you add to your repository.
-
 ## ✨ Features
 
 - 🌡️ Convert between Celsius, Fahrenheit, and Kelvin
